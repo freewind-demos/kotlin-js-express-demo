@@ -1,17 +1,20 @@
-Kotlin JS Hello World Demo
-=======================
+Kotlin Write Express Code Demo
+==============================
 
-Hello world from kotlin-js.
+Use Kotlin to write code for ExpressJS.
 
 
 Run:
 
 ```
 ./gradlew clean compileKotlin2Js
-npm install -g http-server
-http-server .
+cd node
+npm install
+node index.js
 ```
 
-Open <http://localhost:8080/index.html> from your browser, you will see "Hello, Kotlin!" in console of your browser's developer panel.
+You will see `Listen on 3000` on console.
+
+Open <http://localhost:3000> and you will see `Hello!`.
 
 
